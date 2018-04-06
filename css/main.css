@@ -14,7 +14,7 @@
 }
 .first-panel
 {
-	background-color: rgba(0, 0, 0, .85);
+	background-color: rgba(0, 0, 0, .80);
 	color:white;
 }
 #profile-pic
@@ -31,7 +31,7 @@
 }
 .service-photo
 {
-    max-height: 150px;
+   max-height: 150px;
     padding: 10px;
 }
 .second-panel
