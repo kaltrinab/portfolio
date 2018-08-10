@@ -29,11 +29,29 @@
 {
 	text-align:center;
 }
-.service-photo
+#service-photo
 {
-   max-height: 150px;
+   max-height: 250px;
     padding: 10px;
+    border-radius: 45%;
+    
+
 }
+    
+        #service-photo:hover {
+
+            transform: scaleX(-1);
+		
+        }
+
+        .vertical_flip {
+            
+           /* position: relative;*/
+            transform-style: preserve-3d;
+            transform-origin: 100% 125px;
+            transition: all 0.7s ease;
+        }
+
 .second-panel
 {
 	text-align: center;
